@@ -1,0 +1,22 @@
+/*selector{
+	property:value;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,700;1,400&family=Concert+One&family=Press+Start+2P&display=swap');
+
+body{
+	background-color: pink;
+}
+a{
+	color:rgb(255,255,0,50);
+	font-family:"Concert One";
+}
+h1{
+	color: #FF5400;
+	font-family:"Press Start 2p";
+}
+h2{
+	color: #006400;
+	font-family:"Chakra Petch";
+}

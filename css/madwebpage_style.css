@@ -1,0 +1,19 @@
+/*selector{
+	property:value;
+}*/
+
+
+body{
+	background-color: pink;
+}
+a{
+	color:rgb(255,255,0,50);
+	font-family:"sans-serif";
+}
+h1{
+	color: #FF5400;
+	font-family:"Roboto";
+}
+.assignments{
+	background color:green;
+}
