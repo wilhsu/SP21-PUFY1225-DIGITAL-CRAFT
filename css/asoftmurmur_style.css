@@ -11,8 +11,8 @@ h1{
 }
 p{
 	margin: auto;
-  width: 40%;
-  padding: 10px;
+  width: 90%;
+  padding: 40px;
 }
 body{
 	background-image: url(https://photosbyleonie.files.wordpress.com/2011/01/water-flow.jpg);
@@ -33,11 +33,16 @@ nav {
   float: right;
   display: inline;
   top: 0;
-  width: 20%;
+  width: 10%;
 }
 .right{
-	margin-right: 50%;
-	width:50%;
+	margin-left: 100%;
+	width:15%;
+	padding:3px;
+}
+.left{
+	margin-right:80%;
+	width:15%;
 	padding:10px;
 }
 .intro{
