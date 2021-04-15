@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,700;1,400&family=Concert+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 body{
 	background-color: pink;
@@ -18,5 +20,10 @@ h1{
 }
 h2{
 	color: #006400;
-	font-family:"Chakra Petch";
+	font-family:"Permanent Marker";
+}
+h3{
+	color:#594fcf;
+	font-family: "Chakra Petch"
+
 }
