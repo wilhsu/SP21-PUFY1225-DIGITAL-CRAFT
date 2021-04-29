@@ -1,0 +1,6 @@
+/*selector{
+	property:value;
+}*/
+body {
+    background: linear-gradient(to top, #003399 0%, #33cccc 100%);
+}
