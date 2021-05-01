@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(400,400,SVG);
   noStroke();
 }
 
@@ -14,4 +14,7 @@ function draw() {
     ellipse (x,y,30,50);
     }
   }
+  save("ombrepicnic.svg"); // give file name
+  print("saved svg");
+  noLoop(); // we just want to export once
 }
