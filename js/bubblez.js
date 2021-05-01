@@ -12,7 +12,7 @@ function mousePressed(){
 
 function draw() {
   colorMode(RGB);
-  background(255, 255, 255, 0.5);
+  background("blue");
   for (let i = 0; i<bubbles.length; i++){
     bubbles[i].move();
     bubbles[i].show();
