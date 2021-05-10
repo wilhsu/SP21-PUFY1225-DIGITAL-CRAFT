@@ -1,6 +1,6 @@
+//sound synthesis 
 var wave;
 let f=100;
-let img;
 
 //toxic chemicals
 let x=300;
@@ -36,6 +36,8 @@ function setup() {
 
 function draw() {
   background(20);
+
+  //sound synthesis
   wave = new p5.Oscillator();
   wave.setType(sin);
   wave.start();
@@ -48,6 +50,8 @@ function draw() {
   fill(255);
   textAlign(LEFT);
   text('environmental pollution of 2021',20,40);
+  //title, so that people know what this website is about.
+
   //display
   fill(35);
   rect(0,50,width,60);
@@ -57,6 +61,7 @@ function draw() {
   text(tc,width/3+50,90);
   fill(50,50,200);
   text(co,width/3*2+50,90);
+  //display of the individual statistics, color coded to each individual category.
 
   //CO2 emissions
   x3+=xspeed3;
